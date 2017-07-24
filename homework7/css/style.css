@@ -108,10 +108,18 @@ form input {
 
 .item {
     display: inline-block;
-
     margin: 0 55px 95px;
 }
+
+.item img {
+   width: 80px;
+   display: block;
+   margin: 0 auto;
+}
+
 .item p {
+   display: inline-block;
+   width: 130px;
     font-size: 16px;
     font-weight: 700;
 
