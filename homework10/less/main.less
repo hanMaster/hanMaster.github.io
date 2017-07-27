@@ -11,32 +11,30 @@
 body {
 	font-family: "Oswald", sans-serif;
 }
+.block {
+	height: 150px;
+	display: flex;
+	align-items: center;
+}
 .main_header {
-	min-height: 150px;
-	background-color: @main_color;
 	background: linear-gradient(0, @main_color, @main_light);
-	.brand {
-		margin-top: 32px;
-		vertical-align: middle;
-	}
 }
 
 .menu {
 	min-height: 82px;
 	background-color: @menu_bg;
-	margin-top: 32px;
-	vertical-align: middle;
 	ul {
 		list-style-type: none;
 		margin: 0;
 		li {
 			display: inline-block;
 			margin-right: 30px;
-			line-height: 80px;
+			padding: 28px 0;
 			a {
 				color: @main_color;
 				font-family: "PT Sans Narrow", sans-serif;
 				font-size: 18px;
+
 			}
 		}
 	}
