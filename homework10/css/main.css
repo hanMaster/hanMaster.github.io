@@ -78,3 +78,6 @@ body {
 .item .description:hover {
   cursor: pointer;
 }
+.wrap {
+  padding-left: 100px;
+}
