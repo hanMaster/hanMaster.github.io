@@ -1,9 +1,9 @@
 # Андрей Халепов
 Lessons in Glo Academy
 
-[Урок 2](https://hanMaster.github.io/GloAcademy/lesson_2) - Вырезка графики
+[Урок 2](https://github.com/hanMaster/hanMaster.github.io/tree/master/GloAcademy/lesson_2) - Вырезка графики
 
-[Урок 3](https://hanMaster.github.io/GloAcademy/lesson_3) - Настройка проекта, запуск Browser-sync
+[Урок 3](https://github.com/hanMaster/hanMaster.github.io/tree/master/GloAcademy/lesson_3) - Настройка проекта, запуск Browser-sync
 
 [Урок 4](https://hanMaster.github.io/GloAcademy/lesson_4) - Знакомство с основами HTML
 
@@ -21,4 +21,4 @@ Lessons in Glo Academy
 
 [Урок 10](https://hanMaster.github.io/GloAcademy/lesson_10) - Препроцессор LESS для CSS
 
-[Урок 11](https://hanMaster.github.io/GloAcademy/lesson_11) - Сниппеты
+[Урок 11](https://github.com/hanMaster/hanMaster.github.io/tree/master/GloAcademy/lesson_11) - Сниппеты
