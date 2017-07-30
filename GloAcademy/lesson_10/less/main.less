@@ -23,32 +23,34 @@ body {
 .brand {
 	margin-top: 34px;
 	margin-bottom: 34px;
+	padding-left: 0;
 }
-
-.menu {
+.menu_wrap {
 	margin-top: 34px;
 	margin-bottom: 34px;
 	min-height: 82px;
+	padding-right: 40px;
+}
+.menu {
 	background-color: @menu_bg;
-	ul {
-		list-style-type: none;
-		margin: 0;
-		li {
-			display: inline-block;
-			margin-right: 30px;
-			padding: 28px 0;
-			a {
-				color: @main_color;
-				font-family: "PT Sans Narrow", sans-serif;
-				font-size: 18px;
-			}
+	list-style-type: none;
+	margin: 0;
+	li {
+		display: inline-block;
+		margin-right: 30px;
+		padding: 28px 0;
+		a {
+			color: @main_color;
+			font-family: "PT Sans Narrow", sans-serif;
+			font-size: 18px;
 		}
 	}
+
 }
 
 .hd2 {
 	background-color: @h1_bg;
-	border: 3px solid @h1_brd;
+	border-top: 3px solid @h1_brd;
 	min-height: 85px;
 	h1 {
 		line-height: 85px;
@@ -73,9 +75,7 @@ body {
 		background-color: @descr_bg;
 		height: 74px;
 		border-left: 1px dotted @descr_brd;
-		padding: 0;
 		display: table;
-		padding-left: 20px;
 		p {
 			text-decoration: underline;
 			font-family: Tahoma, sans-serif;
