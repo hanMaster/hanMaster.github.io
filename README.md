@@ -25,4 +25,6 @@ Lessons in Glo Academy
 
 [Урок 13](https://hanMaster.github.io/GloAcademy/lesson_13) - Pixel Perfect
 
+[Практика 1](https://hanMaster.github.io/GloAcademy/practice_1) - Штукартурка - шапка сайта
+
 
