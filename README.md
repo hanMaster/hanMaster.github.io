@@ -22,3 +22,7 @@ Lessons in Glo Academy
 [Урок 10](https://hanMaster.github.io/GloAcademy/lesson_10) - Препроцессор LESS для CSS
 
 [Урок 11](https://github.com/hanMaster/hanMaster.github.io/tree/master/GloAcademy/lesson_11) - Сниппеты
+
+[Урок 13](https://github.com/hanMaster/hanMaster.github.io/tree/master/GloAcademy/lesson_13) - Pixel Perfect
+
+
