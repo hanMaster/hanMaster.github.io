@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|PT+Sans+Narrow');
+@main_color: #01b3b3;
+@dark_color: #01b1b1;
+@border: #cfdede;
+
+
+body {
+	box-sizing: border-box;
+	background-image: url(../img/bg.png);
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+}
+
+.main_form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	
+	width: 320px;
+	height: 370px;
+	margin-top: -160px;
+	margin-left: -160px;
+
+	border: 1px solid @border;
+	background-color: #fff;
+	padding: 52px 28px 0 28px;
+	
+	.account {
+		font-weight: 900;
+		position: absolute;
+		background-color: @main_color;
+		display: inline-block;
+		color: #fff;
+		text-transform: uppercase;
+		text-align: center;
+		width: 149px;
+		height: 25px;
+		line-height: 25px;
+		margin-top: -56px;
+		box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.15);
+	}
+
+
+	span {
+		color: @main_color;
+		margin-left: 4px;
+	}
+	label {
+		font-weight: 900;
+		color: #333;
+		text-transform: capitalize;
+	}
+	input {
+		background-image: url(../img/bg.png);
+
+
+	}
+	.my_btn {
+		text-transform: uppercase;
+		background: linear-gradient(0, @dark_color, @main_color);
+		border: none;
+		height: 45px;
+		margin-top: 34px;
+		font-weight: 900;
+		font-size: 16px;
+	}
+}
+
+#Email {
+	margin-top: 3px;
+	font-size: 12px;
+	font-style: italic;	
+}
+
+#Password1 {
+	margin-top: 5px;
+}
+
+#Password2 {
+	margin-top: 4px;
+}
+
+.eml {
+	 margin-bottom: 14px;
+}
