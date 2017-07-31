@@ -23,6 +23,6 @@ Lessons in Glo Academy
 
 [Урок 11](https://github.com/hanMaster/hanMaster.github.io/tree/master/GloAcademy/lesson_11) - Сниппеты
 
-[Урок 13](https://github.com/hanMaster/hanMaster.github.io/tree/master/GloAcademy/lesson_13) - Pixel Perfect
+[Урок 13](https://hanMaster.github.io/GloAcademy/lesson_13) - Pixel Perfect
 
 
