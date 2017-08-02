@@ -1,0 +1,95 @@
+body {
+  font-family: Tahoma, sans-serif;
+}
+.img1 {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  margin-bottom: 50px;
+  background: url("../img/beers.jpg") center center no-repeat;
+  background-size: cover;
+}
+.img1::before {
+  display: block;
+  padding: 30%;
+  text-align: center;
+  font-size: 18px;
+  color: tomato;
+  background: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  content: "Медведи";
+}
+.img1:hover::before {
+  opacity: 1;
+}
+.img2 {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  margin-bottom: 50px;
+  background: url("../img/mountains.jpg") center center no-repeat;
+  background-size: cover;
+}
+.img2::before {
+  display: block;
+  padding: 30%;
+  text-align: center;
+  font-size: 18px;
+  color: tomato;
+  background: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  content: "Горы";
+}
+.img2:hover::before {
+  opacity: 1;
+}
+.img3 {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  margin-bottom: 50px;
+  background: url("../img/sea.jpg") center center no-repeat;
+  background-size: cover;
+}
+.img3::before {
+  display: block;
+  padding: 30%;
+  text-align: center;
+  font-size: 18px;
+  color: tomato;
+  background: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  content: "Море";
+}
+.img3:hover::before {
+  opacity: 1;
+}
+.img4 {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  margin-bottom: 50px;
+  background: url("../img/winter.jpg") center center no-repeat;
+  background-size: cover;
+}
+.img4::before {
+  display: block;
+  padding: 30%;
+  text-align: center;
+  font-size: 18px;
+  color: tomato;
+  background: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  content: "Зима";
+}
+.img4:hover::before {
+  opacity: 1;
+}

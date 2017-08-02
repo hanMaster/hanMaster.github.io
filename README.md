@@ -30,3 +30,5 @@ Lessons in Glo Academy
 [Урок 14](https://hanmaster.github.io/GloAcademy/lesson_14) - Подключение шрифтов
 
 [Практика 2](https://hanMaster.github.io/GloAcademy/practice_2) - Верстка первого экрана
+
+[Урок 15](https://hanmaster.github.io/GloAcademy/lesson_15) - Псевдоэлементы
