@@ -27,4 +27,8 @@ Lessons in Glo Academy
 
 [Практика 1](https://hanMaster.github.io/GloAcademy/practice_1) - Штукартурка - шапка сайта
 
+[Урок 14](https://hanmaster.github.io/GloAcademy/lesson_14) - Подключение шрифтов
+
+[Практика 2](https://hanMaster.github.io/GloAcademy/practice_2) - Верстка первого экрана
+
 
