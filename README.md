@@ -34,3 +34,5 @@ Lessons in Glo Academy
 [Урок 15](https://hanmaster.github.io/GloAcademy/lesson_15) - Псевдоэлементы
 
 [Практика 3](https://hanMaster.github.io/GloAcademy/practice_3) - Эффекты при наведении и адаптив первого экрана
+
+[Урок 16](https://hanmaster.github.io/GloAcademy/lesson_16) - Слайдер
