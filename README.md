@@ -32,3 +32,5 @@ Lessons in Glo Academy
 [Практика 2](https://hanMaster.github.io/GloAcademy/practice_2) - Верстка первого экрана
 
 [Урок 15](https://hanmaster.github.io/GloAcademy/lesson_15) - Псевдоэлементы
+
+[Практика 3](https://hanMaster.github.io/GloAcademy/practice_3) - Эффекты при наведении и адаптив первого экрана
