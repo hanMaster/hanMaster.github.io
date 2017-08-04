@@ -36,10 +36,9 @@ body .btn:visited {
 .modal-footer .yes {
   border: none;
   border-radius: 1px;
-  background-image: -moz-linear-gradient(90deg, #659d48 0%, #85b46c 100%);
-  background-image: -webkit-linear-gradient(90deg, #659d48 0%, #85b46c 100%);
   background-image: -ms-linear-gradient(90deg, #659d48 0%, #85b46c 100%);
-  box-shadow: 0.5px 0.866px 1px 0px rgba(0, 0, 0, 0.85);
+  -webkit-box-shadow: 0.5px 0.866px 1px 0px rgba(0, 0, 0, 0.85);
+          box-shadow: 0.5px 0.866px 1px 0px rgba(0, 0, 0, 0.85);
   width: 62px;
   height: 31px;
 }
@@ -50,10 +49,9 @@ body .btn:visited {
 .modal-footer .no {
   border: none;
   border-radius: 1px;
-  background-image: -moz-linear-gradient(90deg, #c84747 0%, #db6464 100%);
-  background-image: -webkit-linear-gradient(90deg, #c84747 0%, #db6464 100%);
   background-image: -ms-linear-gradient(90deg, #c84747 0%, #db6464 100%);
-  box-shadow: 0.5px 0.866px 1px 0px rgba(0, 0, 0, 0.85);
+  -webkit-box-shadow: 0.5px 0.866px 1px 0px rgba(0, 0, 0, 0.85);
+          box-shadow: 0.5px 0.866px 1px 0px rgba(0, 0, 0, 0.85);
   width: 62px;
   height: 31px;
 }
@@ -68,10 +66,9 @@ body .btn:visited {
   border-color: #e7e7e7;
 }
 .hd {
-  background-image: -moz-linear-gradient(90deg, #2c202b 0%, #40323f 100%);
-  background-image: -webkit-linear-gradient(90deg, #2c202b 0%, #40323f 100%);
   background-image: -ms-linear-gradient(90deg, #2c202b 0%, #40323f 100%);
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.75), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.15);
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.75), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.15);
+          box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.75), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.15);
 }
 .confirm {
   line-height: 1.2rem;
@@ -86,7 +83,8 @@ body .btn:visited {
   outline: none;
   border-radius: 50%;
   background-color: #20161f;
-  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px 1px 5px 0px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px 1px 5px 0px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px 1px 5px 0px rgba(0, 0, 0, 0.6);
   width: 21px;
   height: 21px;
 }
