@@ -38,3 +38,7 @@ Lessons in Glo Academy
 [Урок 16](https://hanmaster.github.io/GloAcademy/lesson_16) - Слайдер
 
 [Практика 4](https://hanMaster.github.io/GloAcademy/practice_4) - Верстка блока с преимуществами. Слайдер.
+
+[Урок 17](https://hanmaster.github.io/GloAcademy/lesson_17) - Модальные окна
+
+
