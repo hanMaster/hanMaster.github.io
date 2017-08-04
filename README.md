@@ -36,3 +36,5 @@ Lessons in Glo Academy
 [Практика 3](https://hanMaster.github.io/GloAcademy/practice_3) - Эффекты при наведении и адаптив первого экрана
 
 [Урок 16](https://hanmaster.github.io/GloAcademy/lesson_16) - Слайдер
+
+[Практика 4](https://hanMaster.github.io/GloAcademy/practice_4) - Верстка блока с преимуществами. Слайдер.
