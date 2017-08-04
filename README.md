@@ -41,4 +41,4 @@ Lessons in Glo Academy
 
 [Урок 17](https://hanmaster.github.io/GloAcademy/lesson_17) - Модальные окна
 
-
+[Практика 5](https://hanMaster.github.io/GloAcademy/practice_5) - Верстка всплывающих окон на сайте
