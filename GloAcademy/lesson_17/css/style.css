@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  background-color: #eee;
+}
+body h1 {
+  text-align: center;
+}
+body .btn {
+  margin-top: 10rem;
+  border: none;
+}
+body .btn:focus,
+body .btn:active,
+body .btn:visited {
+  outline: none;
+}
+.modal-body {
+  font-size: 1.5rem;
+  height: 7rem;
+  padding: 0 1.5rem;
+}
+.modal-body p {
+  line-height: 7rem;
+  margin: 0;
+}
+.modal-content {
+  background-color: #fff;
+}
+.modal-footer {
+  height: 6.5rem;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.modal-footer .yes {
+  border: none;
+  border-radius: 1px;
+  background-image: -moz-linear-gradient(90deg, #659d48 0%, #85b46c 100%);
+  background-image: -webkit-linear-gradient(90deg, #659d48 0%, #85b46c 100%);
+  background-image: -ms-linear-gradient(90deg, #659d48 0%, #85b46c 100%);
+  box-shadow: 0.5px 0.866px 1px 0px rgba(0, 0, 0, 0.85);
+  width: 62px;
+  height: 31px;
+}
+.modal-footer .yes:active,
+.modal-footer .yes:focus {
+  outline: none;
+}
+.modal-footer .no {
+  border: none;
+  border-radius: 1px;
+  background-image: -moz-linear-gradient(90deg, #c84747 0%, #db6464 100%);
+  background-image: -webkit-linear-gradient(90deg, #c84747 0%, #db6464 100%);
+  background-image: -ms-linear-gradient(90deg, #c84747 0%, #db6464 100%);
+  box-shadow: 0.5px 0.866px 1px 0px rgba(0, 0, 0, 0.85);
+  width: 62px;
+  height: 31px;
+}
+.modal-footer .no:active,
+.modal-footer .no:focus {
+  outline: none;
+}
+.modal-header {
+  border: none;
+}
+.modal-footer {
+  border-color: #e7e7e7;
+}
+.hd {
+  background-image: -moz-linear-gradient(90deg, #2c202b 0%, #40323f 100%);
+  background-image: -webkit-linear-gradient(90deg, #2c202b 0%, #40323f 100%);
+  background-image: -ms-linear-gradient(90deg, #2c202b 0%, #40323f 100%);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.75), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.15);
+}
+.confirm {
+  line-height: 1.2rem;
+  font-size: 2rem;
+  font-family: "Roboto";
+  color: #ffffff;
+  font-weight: bold;
+  text-align: left;
+  text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.75);
+}
+.close {
+  outline: none;
+  border-radius: 50%;
+  background-color: #20161f;
+  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px 1px 5px 0px rgba(0, 0, 0, 0.6);
+  width: 21px;
+  height: 21px;
+}
