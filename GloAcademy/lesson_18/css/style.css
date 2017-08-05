@@ -37,8 +37,8 @@ body {
   border: 1px solid #047ca0;
   background: -webkit-gradient(linear, left top, left bottom, from(#03a6dc), to(#0494bf));
   background: linear-gradient(to bottom, #03a6dc, #0494bf);
-  -webkit-box-shadow: 0 0 100px #777;
-          box-shadow: 0 0 100px #777;
+  -webkit-box-shadow: 0 0 100px rgba(119, 119, 119, 0.55);
+          box-shadow: 0 0 100px rgba(119, 119, 119, 0.55);
   height: 408px;
 }
 .wrapper .register .wnd {
@@ -93,7 +93,8 @@ body {
   bottom: 50px;
   display: inline-block;
   background-color: #c62003;
-  padding: 0 30px;
+  text-align: center;
+  width: 141px;
   -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
           box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
 }
@@ -106,7 +107,7 @@ body {
 .wrapper .register .wnd .ribbon::after {
   content: '';
   position: absolute;
-  left: 118px;
+  left: 128px;
   bottom: -14px;
   border: 7px solid transparent;
   border-top: 7px solid #c62003;
