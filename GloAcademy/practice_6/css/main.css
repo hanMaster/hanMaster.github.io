@@ -276,6 +276,10 @@ section {
 .price-header h2 {
   margin: 0 0 47px;
 }
+.price-header p {
+  font-family: 'Proxima Nova Rg', sans-serif;
+  font-size: 1.8rem;
+}
 .price-btn {
   float: right;
   padding: 2.2rem 3rem;
