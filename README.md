@@ -42,3 +42,11 @@ Lessons in Glo Academy
 [Урок 17](https://hanmaster.github.io/GloAcademy/lesson_17) - Модальные окна
 
 [Практика 5](https://hanMaster.github.io/GloAcademy/practice_5) - Верстка всплывающих окон на сайте
+
+[Урок 18](https://hanmaster.github.io/GloAcademy/lesson_18) - Табы и аккордеон на сайте
+
+[Практика 6](https://hanMaster.github.io/GloAcademy/practice_6) - Верстка блока с ценами
+
+[Урок 19](https://hanmaster.github.io/GloAcademy/lesson_19) - Анимация на CSS3
+
+[Практика 7](https://hanMaster.github.io/GloAcademy/practice_7) - Верстка блока с отзывами
