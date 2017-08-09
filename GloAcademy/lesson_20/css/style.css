@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-family: "Bad Script", sans-serif;
+}
+.section {
+	min-height: 100vh;
+	width: 100%;
+	text-align: center;
+	display: table;
+}
+
+.wrapper {
+	display: table-cell;
+	vertical-align: middle;
+	color: #fff;
+}
