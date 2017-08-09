@@ -50,3 +50,5 @@ Lessons in Glo Academy
 [Урок 19](https://hanmaster.github.io/GloAcademy/lesson_19) - Анимация на CSS3
 
 [Практика 7](https://hanMaster.github.io/GloAcademy/practice_7) - Верстка блока с отзывами
+
+[Урок 20](https://hanmaster.github.io/GloAcademy/lesson_20) - Видео Фон
