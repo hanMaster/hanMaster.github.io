@@ -1,0 +1,101 @@
+@light: #fff;
+@blue: #0e7ac3;
+@accent: #f64747;
+@header: #444444;
+@placeholder: #cccccc;
+@questions: #222222;
+@answers: #999999;
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'GothamProReg', sans-serif;
+	font-size: 10px;
+}
+
+section {
+	padding: 6rem;
+}
+
+a, a:hover, a:visited, a:focus{
+	text-decoration: none;
+	color: @light;
+}
+
+h1 {
+	font-family: 'GothamProReg', sans-serif;
+}
+
+/* Главный экран */
+
+.main {
+	padding: 0;
+	position: relative;
+	background: url(../img/header-bg.jpg) top center no-repeat;
+	background-color: rgba(0,0,0,.5);
+	background-blend-mode: darken;
+	min-height: 100vh;
+	text-align: center;
+	color:  @light;
+	&-wrap {
+		display: table;
+		height: 5.6rem;
+		float: right;
+		&-block {
+			display: table-cell;
+			vertical-align: middle;
+		}
+	}
+	&-logo {
+		text-align: left;
+	}
+	&-phone {
+		font-size: 1.8rem;
+		font-weight: 400;
+		strong {
+			font-size: 1.8rem;
+			font-weight: 700;
+			text-align: right;
+
+			text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.35);
+		}
+
+
+	}
+	.hr {
+		 position: absolute;
+		
+		left: 0;
+		right: 0;
+		top: 6rem;
+		background-color: rgba(255, 255, 255, 0.3);
+		width: inherit;
+		height: 2px;
+	}
+
+	h1 {
+		margin-top: 24rem;
+		text-transform: uppercase;
+		font-family: 'GothamProBold', sans-serif;
+		font-size: 5rem;
+		text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.53);
+	}
+	p {
+		display: inline-block;
+		width: 70%;
+		font-size: 3rem;
+		text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.53);
+
+	}
+	&-button {
+		display: block;
+		margin: 7rem auto;
+		padding: 1.8rem 3.3rem;
+		border: 1px solid @light;
+		background-color: transparent;
+		font-size: 1.6rem;
+		text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.53);
+	}
+}
