@@ -52,3 +52,5 @@ Lessons in Glo Academy
 [Практика 7](https://hanMaster.github.io/GloAcademy/practice_7) - Верстка блока с отзывами
 
 [Урок 20](https://hanmaster.github.io/GloAcademy/lesson_20) - Видео Фон
+
+[Практика 8](https://hanMaster.github.io/GloAcademy/practice_8) - Доверстали блок с отзывами
