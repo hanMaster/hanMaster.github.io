@@ -54,3 +54,8 @@ Lessons in Glo Academy
 [Урок 20](https://hanmaster.github.io/GloAcademy/lesson_20) - Видео Фон
 
 [Практика 8](https://hanMaster.github.io/GloAcademy/practice_8) - Доверстали блок с отзывами
+
+[Урок 21](https://hanmaster.github.io/GloAcademy/lesson_21) - Параллах
+
+
+
