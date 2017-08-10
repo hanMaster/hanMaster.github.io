@@ -57,5 +57,5 @@ Lessons in Glo Academy
 
 [Урок 21](https://hanmaster.github.io/GloAcademy/lesson_21) - Параллах
 
-
+[Практика 9](https://hanMaster.github.io/GloAcademy/practice_9) - Верстаем схему работы и все включено
 
