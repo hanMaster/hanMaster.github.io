@@ -59,3 +59,6 @@ Lessons in Glo Academy
 
 [Практика 9](https://hanMaster.github.io/GloAcademy/practice_9) - Верстаем схему работы и все включено
 
+[Урок 22](https://hanmaster.github.io/GloAcademy/lesson_22) - Гео-карты для сайта
+
+[Практика 10](https://hanMaster.github.io/GloAcademy/practice_10) - Верстаем блок "Развеиваем сомнения"
