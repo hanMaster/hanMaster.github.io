@@ -14,7 +14,12 @@
     {
         font-size: 1rem;
     }
-
+    .problems-item {
+        min-height: 60rem;
+    }
+    .contacts:before {
+        left: 35%;
+    }
 
 }
 @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max)
@@ -34,6 +39,17 @@
     .main form
     {
         margin-top: 0;
+    }
+    .problems {
+        &-item {
+            min-height: 60rem;
+        }
+        &-girl {
+            display: none;
+        }
+    }
+    .contacts:before {
+        left: 0;
     }
 
 }
@@ -106,9 +122,20 @@
                 min-height: 1rem;
                 margin-bottom: 6rem;
             }
+        }
     }
+    .problems{
+        &-item {
+            min-height: auto;
+            padding: 2rem;
+        }
+        &-girl {
+            display: none;
+        }
     }
-
+    .contacts:before {
+        display: none;
+    }
 }
 
 @media (min-width: @screen-xs-min) and (max-width: @screen-sm-max)

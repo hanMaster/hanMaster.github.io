@@ -552,23 +552,147 @@ section {
   font-size: 1.3rem;
   font-weight: 200;
 }
+/*  Section problems */
+.problems {
+  position: relative;
+}
+.problems h2 {
+  text-align: center;
+  margin-bottom: 9rem;
+  font-family: 'Proxima Nova Bold', sans-serif;
+  font-size: 2.3rem;
+}
+.problems-item {
+  padding: 4.7rem 3.6rem 4.7rem 4.7rem;
+  border: 4px solid;
+  min-height: 50rem;
+  margin-bottom: 2rem;
+}
+.problems-item h3 {
+  margin: 0 0 5.6rem;
+  font-family: 'Proxima Nova Bold', sans-serif;
+  font-size: 2.1rem;
+}
+.problems-item ul {
+  padding: 0;
+}
+.problems-item ul li {
+  position: relative;
+  list-style-type: none;
+  margin-bottom: 4rem;
+  color: #313131;
+  padding-left: 4.5rem;
+  font-family: 'Proxima Nova Rg', sans-serif;
+  font-size: 1.6rem;
+}
+.problems-item ul li:last-child {
+  margin-bottom: 0;
+}
+.problems-item ul li:before {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  height: 3rem;
+  width: 3rem;
+  left: 0;
+  top: 0;
+  -webkit-transform: translateY(-15%);
+          transform: translateY(-15%);
+  background-color: #333;
+}
+.problems-bad {
+  border-color: rgba(49, 49, 49, 0.5);
+}
+.problems-bad h3 {
+  color: rgba(49, 49, 49, 0.5);
+}
+.problems-bad ul li:before {
+  background: url(../img/problems/cancel-music.svg) center center no-repeat;
+  background-size: 70%;
+}
+.problems-solve {
+  border-color: #358015;
+}
+.problems-solve h3 {
+  color: #313131;
+}
+.problems-solve ul li:before {
+  background: url(../img/problems/checked.svg) center center no-repeat;
+  background-size: 100%;
+}
+.problems-girl {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-60%);
+          transform: translateX(-60%);
+}
 /* Section CONTACTS */
 .contacts {
-  background: url(../img/contacts_bg.png) center no-repeat, url(../img/bg.jpg);
+  position: relative;
+  background: url(../img/bg.jpg);
+  padding: 8rem 0;
 }
-.contacts-header {
+.contacts-body h2 {
+  font-family: 'Proxima Nova Bold', sans-serif;
+  font-size: 3.6rem;
+  margin-bottom: 6rem;
+}
+.contacts-body p {
+  font-family: 'Proxima Nova Rg', sans-serif;
+  font-size: 1.8rem;
+}
+.contacts-body p strong {
+  font-family: 'Proxima Nova Bold', sans-serif;
+}
+.contacts-addr {
+  margin-bottom: 1.5rem;
+}
+.contacts-map {
+  margin-bottom: 2.6rem;
+}
+.contacts-phone {
+  margin-bottom: 3.2rem;
+}
+.contacts-email {
+  margin-bottom: 2.8rem;
+}
+.contacts-rekv {
+  margin-bottom: 5rem;
+}
+.contacts-form {
+  text-align: right;
+  z-index: 999;
+  margin-top: 0;
+}
+.contacts-form-header {
   text-align: center;
   font-family: 'Proxima Nova Rg', sans-serif;
   font-size: 1.8rem;
   margin-bottom: 4rem;
 }
-.contacts-form {
-  text-align: right;
+.contacts-btn {
+  font-size: 1.4rem;
+}
+.contacts:before {
+  content: '';
+  position: absolute;
+  left: 48%;
+  bottom: 0;
+  width: 349px;
+  height: 379px;
+  background: url(../img/contacts/machine.png) 0 0 no-repeat;
 }
 /* Media queries */
 @media (min-width: 992px) and (max-width: 1199px) {
   .header-btn {
     font-size: 1rem;
+  }
+  .problems-item {
+    min-height: 60rem;
+  }
+  .contacts:before {
+    left: 35%;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -583,6 +707,15 @@ section {
   }
   .main form {
     margin-top: 0;
+  }
+  .problems-item {
+    min-height: 60rem;
+  }
+  .problems-girl {
+    display: none;
+  }
+  .contacts:before {
+    left: 0;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
@@ -648,6 +781,16 @@ section {
     max-width: none;
     min-height: 1rem;
     margin-bottom: 6rem;
+  }
+  .problems-item {
+    min-height: auto;
+    padding: 2rem;
+  }
+  .problems-girl {
+    display: none;
+  }
+  .contacts:before {
+    display: none;
   }
 }
 @media (min-width: 320px) and (max-width: 991px) {

@@ -3,6 +3,12 @@
   .header-btn {
     font-size: 1rem;
   }
+  .problems-item {
+    min-height: 60rem;
+  }
+  .contacts:before {
+    left: 35%;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .header-phone {
@@ -16,6 +22,15 @@
   }
   .main form {
     margin-top: 0;
+  }
+  .problems-item {
+    min-height: 60rem;
+  }
+  .problems-girl {
+    display: none;
+  }
+  .contacts:before {
+    left: 0;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
@@ -81,6 +96,16 @@
     max-width: none;
     min-height: 1rem;
     margin-bottom: 6rem;
+  }
+  .problems-item {
+    min-height: auto;
+    padding: 2rem;
+  }
+  .problems-girl {
+    display: none;
+  }
+  .contacts:before {
+    display: none;
   }
 }
 @media (min-width: 320px) and (max-width: 991px) {
