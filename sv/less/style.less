@@ -5,13 +5,29 @@
 @placeholder: #cccccc;
 @questions: #222222;
 @answers: #999999;
+@btn-color: #f64747;
+@btn-shadow: #f64747;
+@btn-border: #c42a2a;
 
 * {
 	box-sizing: border-box;
 }
 
-body {
+.reg() {
 	font-family: 'GothamProReg', sans-serif;
+}
+.light() {
+	font-family: 'GothamProLight', sans-serif;
+}
+.med {
+	font-family: 'GothamProMedium', sans-serif;
+}
+.bold() {
+	font-family: 'GothamProBold', sans-serif;
+}
+ 
+body {
+	.reg();
 	font-size: 10px;
 }
 
@@ -25,8 +41,27 @@ a, a:hover, a:visited, a:focus{
 }
 
 h1 {
-	font-family: 'GothamProReg', sans-serif;
+	.reg();
 }
+
+h2 {
+	.med();
+	font-size: 3rem;
+	color: @header;
+}
+
+.button {
+	border: none;
+	border-bottom: 4px solid @btn-border;
+	padding: 1.5rem 6rem;
+	background-color:  @btn-color;
+	// box-shadow: 0px 3px 0px 0px @btn-shadow;
+	font-size: 1.8rem;
+	color: @light;
+	outline: none;
+}
+
+
 
 /* Главный экран */
 
@@ -34,6 +69,7 @@ h1 {
 	padding: 0;
 	position: relative;
 	background: url(../img/header-bg.jpg) top center no-repeat;
+	background-size: cover;
 	background-color: rgba(0,0,0,.5);
 	background-blend-mode: darken;
 	min-height: 100vh;
@@ -78,7 +114,7 @@ h1 {
 	h1 {
 		margin-top: 24rem;
 		text-transform: uppercase;
-		font-family: 'GothamProBold', sans-serif;
+		.bold();
 		font-size: 5rem;
 		text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.53);
 	}
@@ -97,5 +133,139 @@ h1 {
 		background-color: transparent;
 		font-size: 1.6rem;
 		text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.53);
+		outline: none;
+	}
+	&-pic {
+		display: inline-block;
+		width: 5rem;
+		height: 5rem;
+		img {
+			height: 100%;
+			width: 100%;
+		}
+	}
+}
+
+/* Section 2 */
+
+.section2 {
+	text-align: center;
+	&-text {
+		.light();
+		color:  #444444;
+		font-size: 18px;
+	}
+}
+
+/* Как мы работаем */
+
+.how {
+	text-align: center;
+	background: url(../img/how-bg.jpg) center no-repeat;
+	color: @light;
+	h2 {
+		color: @light;
+		margin-bottom: 4.4rem;
+	}
+
+	&-wrap {
+		display: block;
+		min-height: 10rem;
+		text-align: center;
+		p {
+			font-size: 1.8rem;
+		}
+	}
+
+	&-border {
+		display: inline-block;
+
+		border: 2px dotted @light;
+		border-radius: 50%;
+		padding: 0.3rem;
+	}
+	&-sign {
+		.bold();
+		font-size: 4rem;
+		color: @light;
+		background-color: @blue;
+		display: inline-block;
+		width: 5rem;
+		height: 5rem;
+		border-radius: 50%;
+		line-height: 5rem;
+	}
+	&-pleft {
+		text-align: right;
+	}
+	&-pright {
+		text-align: left;
+	}
+}
+
+/* Наши услуги */
+
+.service {
+	text-align: center;
+	color: @header;
+
+	img {
+		margin: 4rem 0 2rem;
+	}
+	h3 {
+		.reg();
+		font-size: 2rem;
+	}
+}
+
+/* Отзывы */
+
+.testimonials {
+	text-align: center;
+	background: url(../img/testi-bg.jpg) bottom center no-repeat;
+	background-size: cover;
+	color: @light;
+	h2 {
+		color: @light;
+		font-size: 3rem;
+	}
+	h3 {
+		font-size: 1.8rem;
+	}
+	p {
+		// display: inline-block;
+		// width: 90%;
+		.light();
+		font-size: 1.8rem;
+	}
+	&-slider {
+		// margin: 0 auto;
+	}
+	&-block {
+		position: relative;
+		text-align: center;
+		img {
+			display: inline-block;
+		}
+	}
+	&-btn {
+		position: absolute;
+		display: inline-block;
+		border: none;
+		background: transparent;
+		img {
+			width: 70%;
+		}
+		width: 4rem;
+		height: 4rem;
+		outline: none;
+		top: 25%;
+		z-index: 99;
+	}
+	&-btn-prev {
+		left: 20rem;
+	}
+	&-btn-next {
+		right: 20rem;
 	}
 }

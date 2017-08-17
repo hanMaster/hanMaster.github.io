@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+.med {
+  font-family: 'GothamProMedium', sans-serif;
+}
 body {
   font-family: 'GothamProReg', sans-serif;
   font-size: 10px;
@@ -18,11 +21,26 @@ a:focus {
 h1 {
   font-family: 'GothamProReg', sans-serif;
 }
+h2 {
+  font-family: 'GothamProMedium', sans-serif;
+  font-size: 3rem;
+  color: #444444;
+}
+.button {
+  border: none;
+  border-bottom: 4px solid #c42a2a;
+  padding: 1.5rem 6rem;
+  background-color: #f64747;
+  font-size: 1.8rem;
+  color: #ffffff;
+  outline: none;
+}
 /* Главный экран */
 .main {
   padding: 0;
   position: relative;
   background: url(../img/header-bg.jpg) top center no-repeat;
+  background-size: cover;
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: darken;
   min-height: 100vh;
@@ -81,4 +99,121 @@ h1 {
   background-color: transparent;
   font-size: 1.6rem;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.53);
+  outline: none;
+}
+.main-pic {
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+}
+.main-pic img {
+  height: 100%;
+  width: 100%;
+}
+/* Section 2 */
+.section2 {
+  text-align: center;
+}
+.section2-text {
+  font-family: 'GothamProLight', sans-serif;
+  color: #444444;
+  font-size: 18px;
+}
+/* Как мы работаем */
+.how {
+  text-align: center;
+  background: url(../img/how-bg.jpg) center no-repeat;
+  color: #ffffff;
+}
+.how h2 {
+  color: #ffffff;
+  margin-bottom: 4.4rem;
+}
+.how-wrap {
+  display: block;
+  min-height: 10rem;
+  text-align: center;
+}
+.how-wrap p {
+  font-size: 1.8rem;
+}
+.how-border {
+  display: inline-block;
+  border: 2px dotted #ffffff;
+  border-radius: 50%;
+  padding: 0.3rem;
+}
+.how-sign {
+  font-family: 'GothamProBold', sans-serif;
+  font-size: 4rem;
+  color: #ffffff;
+  background-color: #0e7ac3;
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  line-height: 5rem;
+}
+.how-pleft {
+  text-align: right;
+}
+.how-pright {
+  text-align: left;
+}
+/* Наши услуги */
+.service {
+  text-align: center;
+  color: #444444;
+}
+.service img {
+  margin: 4rem 0 2rem;
+}
+.service h3 {
+  font-family: 'GothamProReg', sans-serif;
+  font-size: 2rem;
+}
+/* Отзывы */
+.testimonials {
+  text-align: center;
+  background: url(../img/testi-bg.jpg) bottom center no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+.testimonials h2 {
+  color: #ffffff;
+  font-size: 3rem;
+}
+.testimonials h3 {
+  font-size: 1.8rem;
+}
+.testimonials p {
+  font-family: 'GothamProLight', sans-serif;
+  font-size: 1.8rem;
+}
+.testimonials-block {
+  position: relative;
+  text-align: center;
+}
+.testimonials-block img {
+  display: inline-block;
+}
+.testimonials-btn {
+  position: absolute;
+  display: inline-block;
+  border: none;
+  background: transparent;
+  width: 4rem;
+  height: 4rem;
+  outline: none;
+  top: 25%;
+  z-index: 99;
+}
+.testimonials-btn img {
+  width: 70%;
+}
+.testimonials-btn-prev {
+  left: 20rem;
+}
+.testimonials-btn-next {
+  right: 20rem;
 }
