@@ -1,5 +1,6 @@
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .med {
   font-family: 'GothamProMedium', sans-serif;
@@ -196,6 +197,7 @@ h2 {
 }
 .testimonials-block img {
   display: inline-block;
+  border-radius: 50%;
 }
 .testimonials-btn {
   position: absolute;
