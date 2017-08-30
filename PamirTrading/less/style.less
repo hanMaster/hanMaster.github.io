@@ -1,0 +1,287 @@
+@include "fonts.less";
+
+/* COLORS */
+
+@icons-blue: #00a2e6;
+@question: #095183;
+@contacts-bg: #4c67a0;
+@arrows: #4c67a0;
+@footer-bg: #3b5998;
+@text: #222222;
+@input-color: #cccccc;
+@light: #ffffff;
+@button-color: #ff181f;
+
+/* GENERAL SETTINGS*/
+
+* {
+	box-sizing: border-box;
+}
+
+html, body, ul {
+	padding: 0;
+	margin: 0;
+	font-family: 'GothamProRegular', sans-serif;
+	font-size: 10px;
+	color: @text;
+}
+
+a, a:hover, a:focus, a:visited {
+	text-decoration: none;
+	color: @text;
+}
+
+.reg(){
+	font-family: 'GothamProRegular', sans-serif;
+}
+.light(){
+	font-family: 'GothamProLight', sans-serif;
+}
+.med(){
+	font-family: 'GothamProMedium', sans-serif;
+}
+.bold(){
+	font-family: 'GothamProBold', sans-serif;
+}
+
+
+
+//=========================================================
+
+/* Button */
+
+.button {
+	.reg();
+	font-size: 14px;
+	color: @light;
+	background-color: @button-color;
+	border: none;
+	padding: 2rem 8rem;
+	border-radius: 30px 0 30px 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+
+h2 {
+	display: inline-block;
+	margin-bottom: 4rem;
+	.light();
+	font-size: 2.8rem;
+	text-transform: uppercase;
+	color: @text;
+	position: relative;
+	&:before {
+		position: absolute;
+		content: '';
+		background: url(../img/line-left.png) center center no-repeat;
+		width: 12rem;
+		height: 1rem;
+		left: -13rem;
+		top: 0.8rem;
+	}
+	&:after {
+		position: absolute;
+		content: '';
+		background: url(../img/line-right.png) center center no-repeat;
+		width: 12rem;
+		height: 1rem;
+		right: -13rem;
+		top: 0.8rem;
+	}
+}
+
+h4 {
+	.light();
+	font-size: 2rem;
+	color: #444444;
+	margin-bottom: 3rem;
+}
+
+/* HEADER */
+header {
+	margin-top: 2.3rem;
+	color: @text;
+	.search {
+		border: 1px solid @input-color;
+		padding: 1.2rem;
+		.reg();
+		font-size: 1.4rem;
+		width: 100%;
+		outline: none;
+		color: @text;
+		background: url(../img/header/searching-magnifying-glass.png) right 10px center no-repeat;
+	}	background-size: 20px;
+	.wrap {
+		display: table;
+		width: 100%;
+		min-height: 13rem;
+		&-item {
+			display: table-cell;
+			vertical-align: middle;
+		}
+	}
+	.info {
+		.reg();
+		font-size: 1.4rem;
+		text-align: center;
+	}
+	.header-icon {
+		display: inline-block;
+		width: 1.9rem;
+		margin-right: 1.9rem;
+	}
+	.phone {
+		display: block;
+
+		&-number {
+			display: inline-block;
+			.med();
+			font-size: 1.8rem;
+			margin-bottom: 1rem;
+		}
+	}
+	.contact {
+		display: block;
+		&-text {
+			border-bottom: 1px dotted @text;
+		}
+	}
+	.contact-text, .email {
+		display: inline-block;
+		.reg();
+		font-size: 1.6rem;
+	}
+}
+
+/* MENU */
+
+.menu {
+  background-color: rgb(9, 81, 131);
+  height: 50px;
+  &-wrap {
+  	min-height: 5rem;
+  	display: table;
+  }
+  ul {
+  	list-style-type: none;
+  	li {
+  		margin-right: 5rem;
+  		display: inline-block;
+  		.reg();
+  		font-size: 1.4rem;
+  		color: @light;
+  		text-transform: uppercase;
+  	}
+  }
+}
+
+
+/*  MAIN Section */
+
+.main {
+	text-align: center;
+	min-height: 55rem;
+	background: url(../img/main-bg.jpg) center center no-repeat;
+	color: @light;
+	&-wrap {
+		min-height: 55rem;
+		display: table;
+		width: 100%;
+		&-item {
+			display: table-cell;
+			vertical-align: middle;
+		}
+	}
+	h1 {
+		padding: 0;
+		margin: 0;
+		margin-bottom: 3rem;
+		.med();
+		font-size: 6rem;
+		
+	}
+	p {
+		.light();
+		font-size: 3rem;
+		margin-bottom: 8rem;
+	}
+	h1, p {
+		text-shadow: 1.5px 2.598px 0px rgba(0, 0, 0, 0.41);
+	}
+}
+
+
+/*  Services section */
+
+.services {
+	&-item {
+		min-height: 26rem;
+	}
+	padding: 5rem 0;	
+	text-align: center;
+	img {
+		margin-bottom: 2rem;
+	}
+	
+	
+}
+
+/* Why Section */
+
+.why {
+	text-align: center;
+	padding: 5rem 0;
+	background-color: #f2f2f2;
+	.dots {
+		display: inline-block;
+		padding: 3rem;
+		border: 2px dotted #42789e;
+		border-radius: 50%;
+		width: 15rem;
+		height: 15rem;
+		margin-bottom: 2rem;
+	}
+	img {
+		width: 8rem;
+	}
+
+	&-plaintext {
+		text-align: left;
+	}
+	h4 {
+		text-transform: uppercase;
+		margin-bottom: 5rem;
+		span {
+			.light();
+			font-size: 1.6rem;
+			display: block;
+			text-transform: lowercase;
+			color: #616161;
+		}
+	}
+	p {
+		.light();
+		font-size: 1.6rem;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

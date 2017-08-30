@@ -1,0 +1,222 @@
+@include "fonts.less";
+/* COLORS */
+/* GENERAL SETTINGS*/
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+ul {
+  padding: 0;
+  margin: 0;
+  font-family: 'GothamProRegular', sans-serif;
+  font-size: 10px;
+  color: #222222;
+}
+a,
+a:hover,
+a:focus,
+a:visited {
+  text-decoration: none;
+  color: #222222;
+}
+/* Button */
+.button {
+  font-family: 'GothamProRegular', sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #ff181f;
+  border: none;
+  padding: 2rem 8rem;
+  border-radius: 30px 0 30px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+h2 {
+  display: inline-block;
+  margin-bottom: 4rem;
+  font-family: 'GothamProLight', sans-serif;
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  color: #222222;
+  position: relative;
+}
+h2:before {
+  position: absolute;
+  content: '';
+  background: url(../img/line-left.png) center center no-repeat;
+  width: 12rem;
+  height: 1rem;
+  left: -13rem;
+  top: 0.8rem;
+}
+h2:after {
+  position: absolute;
+  content: '';
+  background: url(../img/line-right.png) center center no-repeat;
+  width: 12rem;
+  height: 1rem;
+  right: -13rem;
+  top: 0.8rem;
+}
+h4 {
+  font-family: 'GothamProLight', sans-serif;
+  font-size: 2rem;
+  color: #444444;
+  margin-bottom: 3rem;
+}
+/* HEADER */
+header {
+  margin-top: 2.3rem;
+  color: #222222;
+  background-size: 20px;
+}
+header .search {
+  border: 1px solid #cccccc;
+  padding: 1.2rem;
+  font-family: 'GothamProRegular', sans-serif;
+  font-size: 1.4rem;
+  width: 100%;
+  outline: none;
+  color: #222222;
+  background: url(../img/header/searching-magnifying-glass.png) right 10px center no-repeat;
+}
+header .wrap {
+  display: table;
+  width: 100%;
+  min-height: 13rem;
+}
+header .wrap-item {
+  display: table-cell;
+  vertical-align: middle;
+}
+header .info {
+  font-family: 'GothamProRegular', sans-serif;
+  font-size: 1.4rem;
+  text-align: center;
+}
+header .header-icon {
+  display: inline-block;
+  width: 1.9rem;
+  margin-right: 1.9rem;
+}
+header .phone {
+  display: block;
+}
+header .phone-number {
+  display: inline-block;
+  font-family: 'GothamProMedium', sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+header .contact {
+  display: block;
+}
+header .contact-text {
+  border-bottom: 1px dotted #222222;
+}
+header .contact-text,
+header .email {
+  display: inline-block;
+  font-family: 'GothamProRegular', sans-serif;
+  font-size: 1.6rem;
+}
+/* MENU */
+.menu {
+  background-color: #095183;
+  height: 50px;
+}
+.menu-wrap {
+  min-height: 5rem;
+  display: table;
+}
+.menu ul {
+  list-style-type: none;
+}
+.menu ul li {
+  margin-right: 5rem;
+  display: inline-block;
+  font-family: 'GothamProRegular', sans-serif;
+  font-size: 1.4rem;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+/*  MAIN Section */
+.main {
+  text-align: center;
+  min-height: 55rem;
+  background: url(../img/main-bg.jpg) center center no-repeat;
+  color: #ffffff;
+}
+.main-wrap {
+  min-height: 55rem;
+  display: table;
+  width: 100%;
+}
+.main-wrap-item {
+  display: table-cell;
+  vertical-align: middle;
+}
+.main h1 {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 3rem;
+  font-family: 'GothamProMedium', sans-serif;
+  font-size: 6rem;
+}
+.main p {
+  font-family: 'GothamProLight', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 8rem;
+}
+.main h1,
+.main p {
+  text-shadow: 1.5px 2.598px 0px rgba(0, 0, 0, 0.41);
+}
+/*  Services section */
+.services {
+  padding: 5rem 0;
+  text-align: center;
+}
+.services-item {
+  min-height: 26rem;
+}
+.services img {
+  margin-bottom: 2rem;
+}
+/* Why Section */
+.why {
+  text-align: center;
+  padding: 5rem 0;
+  background-color: #f2f2f2;
+}
+.why .dots {
+  display: inline-block;
+  padding: 3rem;
+  border: 2px dotted #42789e;
+  border-radius: 50%;
+  width: 15rem;
+  height: 15rem;
+  margin-bottom: 2rem;
+}
+.why img {
+  width: 8rem;
+}
+.why-plaintext {
+  text-align: left;
+}
+.why h4 {
+  text-transform: uppercase;
+  margin-bottom: 5rem;
+}
+.why h4 span {
+  font-family: 'GothamProLight', sans-serif;
+  font-size: 1.6rem;
+  display: block;
+  text-transform: lowercase;
+  color: #616161;
+}
+.why p {
+  font-family: 'GothamProLight', sans-serif;
+  font-size: 1.6rem;
+}
