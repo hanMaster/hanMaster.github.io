@@ -1,0 +1,224 @@
+@screen-md-min: 992px;
+@screen-md-max: 1199px;
+@screen-lg-min: 1200px;
+@screen-sm-min: 768px;
+@screen-sm-max: 991px;
+@screen-xs-min: 320px;
+@screen-xs-max: 767px;
+
+
+/* Media queries */
+
+@media (min-width: @screen-xs-min) and (max-width: @screen-xs-max)
+{
+    .contact-data {
+        .brand {
+            text-align: center;
+        }
+        .phone {
+            text-align: center;
+        }
+    }
+    .main {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        h1 {
+            margin-top: 10rem;
+            font-size: 3.5rem;
+            line-height: 5rem;
+            span {
+                font-size: 2.4rem;
+                
+            }
+        }
+        &-btn {
+            font-size: 1.5rem;
+            padding: 1.4rem 6rem;
+        }
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    .form {
+       h3 {
+           font-size: 2rem;
+       }
+       p {
+           font-size: 1.6rem;
+       } 
+    }
+    .price-item {
+        h4 {
+            margin-bottom: 3rem;
+        }
+    }
+    .main {
+        &-icon {
+            width: 10rem;
+            margin-bottom: 0.7rem;
+        }
+        &-icontext {
+            font-size: 2rem;
+            margin-bottom: 5rem;
+        }
+    }
+    .happy-block {
+        &-image1 {
+            width: 22rem;
+            height: 22.5rem;
+            background-size: cover;
+        }
+        &-image2 {
+            width: 22rem;
+            height: 22.5rem;
+            background-size: cover;
+        }
+        &-image3 {
+            width: 22rem;
+            height: 22.5rem;
+            background-size: cover;
+        }
+        &-image4 {
+            width: 22rem;
+            height: 22.5rem;
+            background-size: cover;
+        }
+        &-image5 {
+            width: 22rem;
+            height: 22.5rem;
+            background-size: cover;
+        }
+        &-image6 {
+            width: 22rem;
+            height: 22.5rem;
+            background-size: cover;
+        }
+        &-image7 {
+            width: 22rem;
+            height: 22.5rem;
+            background-size: cover;
+        }
+    }
+    .happy-wrap {
+        max-width: 24.2rem;
+    }
+
+
+    .testimonials {
+        h2 {
+            margin-bottom: 0;
+        }
+        &-slider {
+            &-item{
+                min-height: 30rem;
+                position: relative;
+                img {
+                    position: relative;
+                    width: 20rem;
+                    height: 20rem;
+                    top: 11rem;
+                    left: 2rem;
+                }
+                &-wrapper {
+                    display: inline-block;
+                    width: 100%;
+                    margin-left: 0;
+                    padding: 2rem 2rem 4rem;
+                }
+            }
+        }
+    }
+    .popup {
+        &-content {
+            top: 0;
+            left: 0;
+            // padding: 1rem;
+            transform: translateX(0);
+            position: auto;
+        }
+        &-close {
+            position: absolute;
+            top: 0;
+            right: 1rem;
+            color: #1b1b1b;
+            &-slider {
+               top: 0.5rem;
+               left: 1rem;
+               z-index: 99;
+            }
+        }
+    }
+    // .fotorama__wrap--css3 .fotorama__stage {
+    //     width: 100vw;
+    // } 
+}
+
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max)
+{
+    h2 {
+        font-size: 2rem;
+    }
+    .form {
+       h3 {
+           font-size: 2rem;
+       }
+       p {
+           font-size: 1.4rem;
+       } 
+    }
+    .main {
+        &-icon {
+            width: 10rem;
+            margin-bottom: 0.7rem;
+        }
+        &-icontext {
+            font-size: 2rem;
+            margin-bottom: 5rem;
+        }
+    }
+
+    .contact-data {
+        .phone {
+            font-size: 2rem;
+        }
+    }
+    .testimonials-slider-item {
+        img {
+            left: 1rem;
+        }
+    }
+    .testimonials-slider-item-wrapper {
+        margin-left: 10%;
+        padding: 2rem 2rem 6rem 19rem;
+        width: 90%;
+    }
+    .happy-wrap {
+        max-width: 48.3rem;
+    }
+}
+
+
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max)
+{
+    .happy {
+        &-wrap {
+            max-width: 48.3rem;
+        }
+    }
+}
+
+@media (width: @screen-xs-min)
+{
+    .event {
+        h2 {
+            font-size: 1.8rem;
+        }
+    }
+}
+
+
+
+
+
+
+

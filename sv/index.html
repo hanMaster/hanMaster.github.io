@@ -2,11 +2,105 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-	<link rel="stylesheet" href="css/fonts.css">
-	<link rel="stylesheet" href="css/style.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		@font-face {
+			font-family: 'GothamProReg';
+			src: url('../fonts/GothamPro.eot');
+			src: url('../fonts/GothamPro.eot?#iefix') format('embedded-opentype'),
+				url('../fonts/GothamPro.woff2') format('woff2'),
+				url('../fonts/GothamPro.woff') format('woff'),
+				url('../fonts/GothamPro.ttf') format('truetype'),
+				url('../fonts/GothamPro.svg#GothamPro') format('svg');
+			font-weight: normal;
+			font-style: normal;
+		}
+
+		/* Главный экран */
+		.main {
+		  padding: 0;
+		  position: relative;
+		  background: url(../img/header-bg.jpg) center center no-repeat;
+		  /*background-size: cover;*/
+		  background-color: rgba(0, 0, 0, 0.4);
+		  background-blend-mode: darken;
+		  min-height: 100vh;
+		  text-align: center;
+		  color: #fff;
+		}
+		.main-wrap {
+		  display: table;
+		  height: 5.6rem;
+		  float: right;
+		}
+		.main-wrap-block {
+		  display: table-cell;
+		  vertical-align: middle;
+		}
+		.main-logo {
+		  text-align: left;
+		}
+		.main-phone {
+		  font-size: 1.8rem;
+		  font-weight: 400;
+		}
+		.main-phone strong {
+		  font-size: 1.8rem;
+		  font-weight: 700;
+		  text-align: right;
+		  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.35);
+		}
+		.main .hr {
+		  position: absolute;
+		  left: 0;
+		  right: 0;
+		  top: 6rem;
+		  background-color: rgba(255, 255, 255, 0.3);
+		  width: inherit;
+		  height: 2px;
+		}
+		.main-bodywrap {
+		  display: table;
+		  height: 100vh;
+		}
+		.main-wrapbody-block {
+		  display: table-cell;
+		  vertical-align: middle;
+		}
+		.main h1 {
+		  text-transform: uppercase;
+		  font-family: 'GothamProBold', sans-serif;
+		  font-size: 5rem;
+		  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.53);
+		}
+		.main p {
+		  display: inline-block;
+		  /*width: 70%;*/
+		  font-size: 3rem;
+		  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.53);
+		}
+		.main-button {
+		  display: block;
+		  margin: 7rem auto;
+		  padding: 1.8rem 3.3rem;
+		  border: 1px solid #fff;
+		  background-color: transparent;
+		  font-size: 1.6rem;
+		  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.53);
+		  outline: none;
+		}
+		.main-pic {
+		  display: inline-block;
+		  width: 5rem;
+		  height: 5rem;
+		}
+		.main-pic img {
+		  height: 100%;
+		  width: 100%;
+		}
+
+	</style>
 	<title>Товары оптом из Китая</title>
 </head>
 <body>
@@ -16,28 +110,33 @@
 		<div class="hr"></div>
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6 col-sm-6 col-xs-12">
+				<div class="col-xs-6">
 					<div class="main-logo">
 						<img src="img/logo.png" alt="Союз-Восток">
 					</div>
 				</div>
-				<div class="col-lg-6 col-sm-6 col-xs-12">
+				<div class="col-xs-6">
 					<div class="main-wrap">
 						<div class="main-wrap-block">
 							<span class="main-phone">
-								<a href="tel: +74232555555">+7 (423) <strong> 255-55-55</strong></a>
+								<a href="tel:+74232555555">+7 (423) <strong> 255-55-55</strong></a>
 							</span>
 						</div>
 					</div>
 				</div>
-				<h1>товары оптом из китая</h1>
-				<p>Доставим любые товарылегкой промышленности от завода в Китае до Вашего склада</p>
-				<button class="main-button">Отправь заявку сейчас и получи скидку 5%</button>
-				<div class="main-pic">
-					<picture>
-						<source srcset="img/down.svg" type="image/svg+xml">
-						<img src="img/down.png" alt="down">
-					</picture>
+			</div>
+
+			<div class="main-bodywrap">
+				<div class="main-wrapbody-block">
+					<h1>товары оптом из китая</h1>
+					<p>Доставим любые товары легкой промышленности от завода в Китае до Вашего склада</p>
+					<button class="main-button">Отправь заявку сейчас и получи скидку 5%</button>
+					<div class="main-pic">
+						<picture>
+							<source srcset="img/down.svg" type="image/svg+xml">
+							<img src="img/down.png" alt="down">
+						</picture>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -58,10 +157,14 @@
 			<h2>Как мы работаем</h2>
 			<div class="row">
 				<div class="how-wrap">
-					<div class="col-sm-5">
-						<p class="how-pleft">Вы присылаете заявку</p>
+					<div class="col-sm-5 col-sm-push-0 col-xs-10 col-xs-push-2">
+						<div class="how-tbl">
+							<div class="how-tbl-block">
+								<p class="how-pleft">Вы присылаете заявку</p>
+							</div>
+						</div>
 					</div>
-					<div class="col-sm-2">
+					<div class="col-sm-2 col-sm-pull-0 col-xs-2 col-xs-pull-10">
 						<span class="how-border"> <span class="how-sign">1</span> </span>
 					</div>
 				</div>
@@ -69,21 +172,29 @@
 
 			<div class="row">
 				<div class="how-wrap">
-					<div class="col-sm-2 col-sm-offset-5">
+					<div class="col-sm-2 col-sm-offset-5 col-xs-2 col-xs-offset-0">
 						<span class="how-border"> <span class="how-sign">2</span> </span>
 					</div>
-					<div class="col-sm-5">
-						<p class="how-pright">Мы производим предварительный рассчет в соответствии с условиями поставки</p>
+					<div class="col-sm-5 col-xs-10">
+						<div class="how-tbl">
+							<div class="how-tbl-block">
+								<p class="how-pright">Мы делаем рассчет в соответствии с условиями поставки</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 
 			<div class="row">
 				<div class="how-wrap">
-					<div class="col-sm-5">
-						<p class="how-pleft">Вы предоставляете контакты отправителя</p>
+					<div class="col-sm-5 col-sm-push-0 col-xs-10 col-xs-push-2">
+						<div class="how-tbl">
+							<div class="how-tbl-block">
+								<p class="how-pleft">Вы предоставляете контакты отправителя</p>
+							</div>
+						</div>
 					</div>
-					<div class="col-sm-2">
+					<div class="col-sm-2 col-sm-pull-0 col-xs-2 col-xs-pull-10">
 						<span class="how-border"> <span class="how-sign">3</span> </span>
 					</div>
 				</div>
@@ -91,21 +202,29 @@
 
 			<div class="row">
 				<div class="how-wrap">
-					<div class="col-sm-2 col-sm-offset-5">
+					<div class="col-sm-2 col-sm-offset-5 col-xs-2 col-xs-offset-0">
 						<span class="how-border"> <span class="how-sign">4</span> </span>
 					</div>
-					<div class="col-sm-5">
-						<p class="how-pright">Мы организуем доставку груза до российской таможни</p>
+					<div class="col-sm-5 col-xs-10">
+						<div class="how-tbl">
+							<div class="how-tbl-block">
+								<p class="how-pright">Мы организуем доставку груза до российской таможни</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 
 			<div class="row">
 				<div class="how-wrap">
-					<div class="col-sm-5">
-						<p class="how-pleft">Проходим таможню</p>
+					<div class="col-sm-5 col-sm-push-0 col-xs-10 col-xs-push-2">
+						<div class="how-tbl">
+							<div class="how-tbl-block">
+								<p class="how-pleft">Проходим таможню</p>
+							</div>
+						</div>
 					</div>
-					<div class="col-sm-2">
+					<div class="col-sm-2 col-sm-pull-0 col-xs-2 col-xs-pull-10">
 						<span class="how-border"> <span class="how-sign">5</span> </span>
 					</div>
 				</div>
@@ -113,11 +232,15 @@
 
 			<div class="row">
 				<div class="how-wrap">
-					<div class="col-sm-2 col-sm-offset-5">
+					<div class="col-sm-2 col-sm-offset-5 col-xs-2 col-xs-offset-0">
 						<span class="how-border"> <span class="how-sign">6</span> </span>
 					</div>
-					<div class="col-sm-5">
-						<p class="how-pright">Отправляем груз на Ваш склад</p>
+					<div class="col-sm-5 col-xs-10">
+						<div class="how-tbl">
+							<div class="how-tbl-block">
+								<p class="how-pright">Отправляем груз на Ваш склад</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -190,7 +313,98 @@
 			</div>
 		</div>
 	</section>
+	
+<!-- FAQ -->
+	<section class="faq">
+		<div class="container">
+			<div class="section-header faq-header">
+				<h2>Ответы на ваши вопросы</h2>
+			</div>
+			<!-- /.section-header faq-header -->
+			<div class="faq-body">
+				<div class="row">
+					<div class="col-xs-1">
+						<span class="fag-sign">?</span>
+					</div>
+					<div class="col-xs-11">
+						<p class="faq-question">Возможна ли оптимизация затрат по таможенному оформлению и логистике?</p>
+						<!-- /.faq-question -->
+						<p class="faq-answer">Да, это возможно, мы следим за коньюнктурой рынка</p>
+						<!-- /.faq-answer -->
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-1">
+						<span class="fag-sign">?</span>
+					</div>
+					<div class="col-xs-11">
+						<p class="faq-question">Предусмотрены ли у вас скидки?</p>
+						<!-- /.faq-question -->
+						<p class="faq-answer">У нас индивидуальный подход к каждому клиенту</p>
+						<!-- /.faq-answer -->
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-1">
+						<span class="fag-sign">?</span>
+					</div>
+					<div class="col-xs-11">
+						<p class="faq-question">Работаете ли вы со сложными логистическими схемами?</p>
+						<!-- /.faq-question -->
+						<p class="faq-answer">Да, работаем. Мы команда профессионалов</p>
+						<!-- /.faq-answer -->
+					</div>
+				</div>
+			</div>
+			<!-- /.faq-body -->
+		</div>
+		<!-- /.container -->
+	</section>
+	<!-- /.faq -->
+	
+<!-- Form -->
+	<section class="message">
+		<div class="container">
+			<form action="#" class="message-form">
+				<h2>Заявка</h2>
+				<div class="row">
+					<div class="col-md-4"><input type="text" placeholder="Ваше имя"></div>
+					<div class="col-md-4"><input type="tel" placeholder="Ваш телефон"></div>
+					<div class="col-md-4"><input type="email" placeholder="Ваш e-mail"></div>
+				</div>
+				<textarea class="message-text" name="user-message" id="usr_message" cols="30" rows="10" placeholder="Изложите Ваш вопрос"></textarea>
+				<button class="button" type="submit">Отправить</button>
+			</form>
+		</div>
+		<div class="hr-bottom"></div>
+		<div class="container footer">
+			<div class="row">
+				<div class="col-md-4 col-xs-12">
+					<div class="footer-logo ">
+						<img src="img/logo.png" alt="Союз-Восток">
+					</div>
+				</div>
+				<div class="col-md-5 col-xs-12">
+					<div class="rights">
+						<p>Союз Восток &copy; 2017 Все права защищены</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-12">
+					<div class="email">
+						<p><a href="mailto:souzv@sousz.ru">souzv@sousz.ru</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
+<!-- css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+<!-- JS -->
 	<script	src="js/jquery-1.10.1.min.js"></script>
 	<script type="text/javascript" src="slick/slick.min.js"></script>
 	<script>
